@@ -1,0 +1,64 @@
+table {
+    width: 600px;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    vertical-align: top;
+}
+
+th {
+    background-color: #3a5fe4;
+    color: white;
+    text-align: center;
+}
+
+td label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 90%;
+    padding: 5px;
+    border: 1.5px solid black;
+    border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+tfoot th {
+    text-align: center;
+    padding: 15px;
+    background-color: #3a5fe4;
+}
+
+#btn1 {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #3399cc;
+    border: 1px solid #3a5fe4;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn1:hover {
+    background-color: #81d4fa;
+}
